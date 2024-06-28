@@ -1,0 +1,15 @@
+
+td{
+    padding: 20px 40px;
+}
+/* 奇数 nth-child(odd) */
+table tr:nth-child(odd){
+    background-color: greenyellow;
+}
+/* 偶数 nth-child(even) */
+table tr:nth-child(even){
+    background-color: gold;
+}
+table, td{
+    border-collapse: collapse;
+}
